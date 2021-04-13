@@ -162,6 +162,9 @@ main {
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.25);
   justify-content: space-between;
 }
+.card:hover{
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.35);
+}
 .card img{
     height: 7rem;
     width: 7rem;
