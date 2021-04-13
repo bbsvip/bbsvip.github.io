@@ -31,6 +31,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: max-content;
 }
 .glass {
   background: white;
@@ -68,7 +69,7 @@ main {
   left: 10%;
 }
 .dashboard {
-  flex: 1;
+  flex: 0.1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,7 +81,7 @@ main {
     rgba(255, 255, 255, 0.3)
   );
   border-radius: 2rem;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 .user img {
   width: 10rem;
@@ -88,8 +89,8 @@ main {
 }
 .link {
   /* display: flex; */
-  margin: 2rem 0rem;
-  padding: 1rem 5rem;
+  /* margin: 2rem 0rem;
+  padding: 1rem 5rem; */
   align-items: center;
 }
 .link a {
@@ -111,7 +112,7 @@ main {
   border-radius: 2rem;
   color: white;
   padding: 1rem;
-  width: 40%;
+  width: 80%;
   display: flex;
   position: relative;
 }
@@ -185,7 +186,8 @@ main {
 .card-info {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: stretch;
+  width: 90%;
 }
 .percentage {
   font-weight: bold;
