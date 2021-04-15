@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Pangolin);
 * {
+  font-family: "Pangolin", cursive !important;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,7 +27,6 @@ p {
   opacity: 0.8;
 }
 main {
-  font-family: "Pangolin", cursive;
   min-height: 100vh;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   display: flex;
